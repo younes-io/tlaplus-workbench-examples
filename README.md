@@ -2,6 +2,11 @@
 
 This repository contains TLA+ and TLC example specs produced with assistance from Codex CLI and the `tlaplus-workbench` skill.
 
+## Scope
+
+These are one-shot TLA+ modeling examples produced for exploration and learning.
+They are not production-hardened specs and are not maintained as long-lived models.
+
 ## Attribution
 
 These specs were authored in this repository using Codex CLI with assistance from the `tlaplus-workbench` skill.
