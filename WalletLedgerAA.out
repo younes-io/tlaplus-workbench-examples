@@ -1,0 +1,712 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.20 of Day Month 20?? (rev: 9276a94)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 48 and seed -5180631524758232165 with 1 worker on 14 cores with 2660MB heap and 64MB offheap memory [pid: 78094] (Linux 5.15.167.4-microsoft-standard-WSL2 amd64, Ubuntu 21.0.10 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/bytecraft/projects/playground/WalletLedgerAA.tla
+Parsing file /tmp/tlc-7833148381157556022/Naturals.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-7833148381157556022/Integers.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file /tmp/tlc-7833148381157556022/TLC.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-7833148381157556022/_TLCTrace.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-7833148381157556022/Sequences.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-7833148381157556022/FiniteSets.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-7833148381157556022/TLCExt.tla (jar:file:/home/bytecraft/.vscode-server/extensions/tlaplus.vscode-ide-2026.2.210317/tools/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module WalletLedgerAA
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module WalletLedgerAA
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2026-02-22 12:53:37)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 6 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2026-02-22 12:53:37.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking 6 branches of temporal properties for the current state space with 62262 total distinct states at (2026-02-22 12:53:40)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 01s at 2026-02-22 12:53:42
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(12) at 2026-02-22 12:53:42: 44,985 states generated (44,985 s/min), 10,377 distinct states found (10,377 ds/min), 3,132 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(17) at 2026-02-22 12:53:44: 90,904 states generated, 16,336 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking 6 branches of temporal properties for the complete state space with 98016 total distinct states at (2026-02-22 12:53:44)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2026-02-22 12:53:45
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 6.6E-11
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2026-02-22 12:53:45 (see https://explain.tlapl.us/module-coverage-statistics for how to interpret the following statistics).
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<replicaBal line 27, col 11 to line 27, col 20 of module WalletLedgerAA>: 294
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<decision line 25, col 11 to line 25, col 18 of module WalletLedgerAA>: 18
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<homeBal line 24, col 11 to line 24, col 17 of module WalletLedgerAA>: 5
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<reserveCount line 30, col 11 to line 30, col 22 of module WalletLedgerAA>: 4
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<repMsgs line 29, col 11 to line 29, col 17 of module WalletLedgerAA>: 799
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<reqMsgs line 28, col 11 to line 28, col 17 of module WalletLedgerAA>: 16
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2779:0 @!@!@
+<regionView line 26, col 11 to line 26, col 20 of module WalletLedgerAA>: 697
+@!@!@ENDMSG 2779 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 78, col 1 to line 78, col 4 of module WalletLedgerAA>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 79, col 12 to line 79, col 28 of module WalletLedgerAA: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 80, col 23 to line 80, col 45 of module WalletLedgerAA: 1:2
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 30 to line 80, col 33 of module WalletLedgerAA: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 81, col 25 to line 81, col 67 of module WalletLedgerAA: 1:2
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 81, col 44 to line 81, col 66 of module WalletLedgerAA: 2:4
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 81, col 51 to line 81, col 54 of module WalletLedgerAA: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 81, col 32 to line 81, col 38 of module WalletLedgerAA: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 82, col 25 to line 82, col 51 of module WalletLedgerAA: 1:2
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 82, col 44 to line 82, col 50 of module WalletLedgerAA: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 82, col 32 to line 82, col 38 of module WalletLedgerAA: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 83, col 12 to line 83, col 23 of module WalletLedgerAA: 1:32
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  line 84, col 12 to line 84, col 23 of module WalletLedgerAA: 1:512
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 85, col 12 to line 85, col 44 of module WalletLedgerAA: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 85, col 27 to line 85, col 44 of module WalletLedgerAA: 1:2
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 85, col 34 to line 85, col 37 of module WalletLedgerAA: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Submit line 87, col 1 to line 87, col 12 of module WalletLedgerAA>: 15:6444
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 6 to line 88, col 18 of module WalletLedgerAA: 72092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 88, col 6 to line 88, col 6 of module WalletLedgerAA: 65648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 88, col 12 to line 88, col 18 of module WalletLedgerAA: 65648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 6 to line 89, col 15 of module WalletLedgerAA: 72092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 91, col 6 to line 91, col 60 of module WalletLedgerAA: 6444
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 92, col 6 to line 92, col 74 of module WalletLedgerAA: 6444
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 92, col 17 to line 92, col 74 of module WalletLedgerAA: 6444
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 92, col 17 to line 92, col 23 of module WalletLedgerAA: 6444
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 89, col 6 to line 89, col 6 of module WalletLedgerAA: 65648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 89, col 12 to line 89, col 15 of module WalletLedgerAA: 65648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 90, col 6 to line 90, col 30 of module WalletLedgerAA: 72092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 90, col 6 to line 90, col 21 of module WalletLedgerAA: 65648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||line 92, col 30 to line 92, col 74 of module WalletLedgerAA: 6444:12028
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 92, col 32 to line 92, col 72 of module WalletLedgerAA: 6444
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 93, col 6 to line 93, col 73 of module WalletLedgerAA: 6444
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<FinalizeCommit line 112, col 1 to line 112, col 17 of module WalletLedgerAA>: 140:2460
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 6 to line 113, col 15 of module WalletLedgerAA: 35284
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 113, col 6 to line 113, col 6 of module WalletLedgerAA: 32824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 113, col 12 to line 113, col 15 of module WalletLedgerAA: 32824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 114, col 6 to line 114, col 28 of module WalletLedgerAA: 35284
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 114, col 6 to line 114, col 16 of module WalletLedgerAA: 32824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 6 to line 115, col 53 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 116, col 6 to line 116, col 61 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 6 to line 117, col 54 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 117, col 17 to line 117, col 54 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 117, col 17 to line 117, col 23 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 117, col 30 to line 117, col 54 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 60, col 21 to line 60, col 75 of module WalletLedgerAA: 2460:7200
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 22 to line 60, col 59 of module WalletLedgerAA: 4920
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 68 to line 60, col 74 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 117, col 53 to line 117, col 53 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 118, col 6 to line 118, col 66 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<FinalizeCompensate line 120, col 1 to line 120, col 21 of module WalletLedgerAA>: 115:2460
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 121, col 6 to line 121, col 15 of module WalletLedgerAA: 35284
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 121, col 6 to line 121, col 6 of module WalletLedgerAA: 32824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 121, col 12 to line 121, col 15 of module WalletLedgerAA: 32824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 122, col 6 to line 122, col 28 of module WalletLedgerAA: 35284
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 122, col 6 to line 122, col 16 of module WalletLedgerAA: 32824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 6 to line 123, col 55 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 124, col 6 to line 124, col 61 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 6 to line 125, col 56 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 125, col 17 to line 125, col 56 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 125, col 17 to line 125, col 23 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 125, col 30 to line 125, col 56 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 60, col 21 to line 60, col 75 of module WalletLedgerAA: 2460:7200
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 22 to line 60, col 59 of module WalletLedgerAA: 4920
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 68 to line 60, col 74 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 125, col 55 to line 125, col 55 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 126, col 6 to line 126, col 66 of module WalletLedgerAA: 2460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<HandleAny line 138, col 1 to line 138, col 9 of module WalletLedgerAA>: 140:18656
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 6 to line 96, col 18 of module WalletLedgerAA: 37312
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 96, col 6 to line 96, col 6 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 96, col 12 to line 96, col 18 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 97, col 6 to line 97, col 23 of module WalletLedgerAA: 37312
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 97, col 6 to line 97, col 9 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 97, col 13 to line 97, col 23 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 6 to line 98, col 31 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 9 to line 99, col 32 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 14 to line 100, col 52 of module WalletLedgerAA: 1056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 16 to line 101, col 65 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 16 to line 102, col 79 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 103, col 16 to line 103, col 66 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 103, col 27 to line 103, col 66 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 103, col 27 to line 103, col 33 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 103, col 40 to line 103, col 66 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 60, col 21 to line 60, col 75 of module WalletLedgerAA: 480:20788
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 22 to line 60, col 59 of module WalletLedgerAA: 960
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 68 to line 60, col 74 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 103, col 61 to line 103, col 65 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 16 to line 104, col 65 of module WalletLedgerAA: 480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 105, col 16 to line 105, col 66 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 16 to line 106, col 33 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 16 to line 107, col 67 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 107, col 27 to line 107, col 67 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 107, col 27 to line 107, col 33 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 107, col 40 to line 107, col 67 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||line 60, col 21 to line 60, col 75 of module WalletLedgerAA: 576:1584
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 22 to line 60, col 59 of module WalletLedgerAA: 1152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 60, col 68 to line 60, col 74 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 107, col 62 to line 107, col 66 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 16 to line 108, col 43 of module WalletLedgerAA: 576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 14 to line 109, col 69 of module WalletLedgerAA: 17600
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 6 to line 110, col 43 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 138, col 46 to line 138, col 46 of module WalletLedgerAA: 18656
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 138, col 23 to line 138, col 29 of module WalletLedgerAA: 16412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<DeliverAny line 142, col 1 to line 142, col 10 of module WalletLedgerAA>: 15925:61512
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 6 to line 129, col 18 of module WalletLedgerAA: 123024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 6 to line 129, col 6 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 12 to line 129, col 18 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 6 to line 130, col 31 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 131, col 6 to line 132, col 72 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 132, col 8 to line 132, col 72 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 132, col 9 to line 132, col 18 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 132, col 27 to line 132, col 71 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 132, col 44 to line 132, col 71 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 67, col 30 to line 67, col 79 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 33 to line 67, col 61 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 33 to line 67, col 45 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 67, col 49 to line 67, col 61 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 62, col 17 to line 65, col 28 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 62, col 22 to line 62, col 37 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 63, col 20 to line 63, col 40 of module WalletLedgerAA: 52508
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||||line 64, col 20 to line 64, col 38 of module WalletLedgerAA: 23296
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 67, col 58 to line 67, col 60 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 68 to line 67, col 70 of module WalletLedgerAA: 49864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 67, col 77 to line 67, col 79 of module WalletLedgerAA: 11648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 132, col 63 to line 132, col 70 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 6 to line 133, col 71 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 133, col 20 to line 133, col 71 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 70, col 3 to line 76, col 15 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 70, col 6 to line 70, col 19 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 71, col 8 to line 71, col 52 of module WalletLedgerAA: 29816
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 72, col 8 to line 76, col 15 of module WalletLedgerAA: 31696
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 72, col 11 to line 72, col 26 of module WalletLedgerAA: 31696
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 73, col 10 to line 73, col 54 of module WalletLedgerAA: 9168
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 74, col 10 to line 76, col 15 of module WalletLedgerAA: 22528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 74, col 13 to line 74, col 30 of module WalletLedgerAA: 22528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 75, col 12 to line 75, col 56 of module WalletLedgerAA: 17856
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 76, col 12 to line 76, col 15 of module WalletLedgerAA: 4672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 133, col 38 to line 133, col 47 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 133, col 50 to line 133, col 53 of module WalletLedgerAA: 56840
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 133, col 56 to line 133, col 63 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 133, col 66 to line 133, col 70 of module WalletLedgerAA: 56840
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 134, col 6 to line 134, col 61 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 52 to line 142, col 52 of module WalletLedgerAA: 61512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 24 to line 142, col 30 of module WalletLedgerAA: 16412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<IdleQuiescent line 149, col 1 to line 149, col 13 of module WalletLedgerAA>: 0:7
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 144, col 17 to line 144, col 28 of module WalletLedgerAA: 16419
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 144, col 17 to line 144, col 23 of module WalletLedgerAA: 16412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 144, col 27 to line 144, col 28 of module WalletLedgerAA: 16412
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 145, col 17 to line 145, col 28 of module WalletLedgerAA: 3204
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 145, col 17 to line 145, col 23 of module WalletLedgerAA: 3197
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 145, col 27 to line 145, col 28 of module WalletLedgerAA: 3197
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 146, col 32 to line 146, col 61 of module WalletLedgerAA: 43
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 146, col 32 to line 146, col 42 of module WalletLedgerAA: 29
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 146, col 48 to line 146, col 61 of module WalletLedgerAA: 29
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 146, col 26 to line 146, col 29 of module WalletLedgerAA: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 50 to line 147, col 79 of module WalletLedgerAA: 56
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 147, col 50 to line 147, col 65 of module WalletLedgerAA: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 147, col 69 to line 147, col 79 of module WalletLedgerAA: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 44 to line 147, col 47 of module WalletLedgerAA: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 26 to line 147, col 32 of module WalletLedgerAA: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 150, col 21 to line 150, col 34 of module WalletLedgerAA: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TypeOK line 52, col 1 to line 52, col 6 of module WalletLedgerAA>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 11 to line 58, col 46 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<HomeNonNegative line 164, col 1 to line 164, col 15 of module WalletLedgerAA>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 164, col 20 to line 164, col 52 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 164, col 38 to line 164, col 52 of module WalletLedgerAA: 49008
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 164, col 29 to line 164, col 35 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<ReserveCountAtMostOnce line 168, col 1 to line 168, col 22 of module WalletLedgerAA>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 27 to line 168, col 61 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 168, col 42 to line 168, col 61 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 168, col 36 to line 168, col 39 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<DecisionLifecycleConsistent line 170, col 1 to line 170, col 27 of module WalletLedgerAA>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 3 to line 175, col 71 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 171, col 18 to line 175, col 71 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 171, col 23 to line 171, col 65 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 171, col 23 to line 171, col 42 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 171, col 47 to line 171, col 65 of module WalletLedgerAA: 1056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 172, col 23 to line 172, col 68 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 172, col 23 to line 172, col 45 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 172, col 50 to line 172, col 68 of module WalletLedgerAA: 2432
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 173, col 23 to line 173, col 70 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 173, col 23 to line 173, col 47 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 173, col 52 to line 173, col 70 of module WalletLedgerAA: 8512
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 174, col 23 to line 174, col 72 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 174, col 23 to line 174, col 49 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 174, col 54 to line 174, col 72 of module WalletLedgerAA: 16576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 175, col 23 to line 175, col 69 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 175, col 23 to line 175, col 46 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 175, col 51 to line 175, col 69 of module WalletLedgerAA: 4096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 171, col 12 to line 171, col 15 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TerminalAgreement line 177, col 1 to line 177, col 17 of module WalletLedgerAA>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 3 to line 181, col 48 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 179, col 5 to line 181, col 48 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 179, col 24 to line 181, col 48 of module WalletLedgerAA: 65344
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 179, col 39 to line 181, col 48 of module WalletLedgerAA: 130688
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 179, col 39 to line 180, col 77 of module WalletLedgerAA: 130688
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 179, col 42 to line 179, col 77 of module WalletLedgerAA: 130688
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 180, col 42 to line 180, col 77 of module WalletLedgerAA: 53760
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 181, col 12 to line 181, col 48 of module WalletLedgerAA: 39168
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 179, col 33 to line 179, col 36 of module WalletLedgerAA: 65344
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 179, col 15 to line 179, col 21 of module WalletLedgerAA: 32672
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 178, col 13 to line 178, col 19 of module WalletLedgerAA: 16336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(17) at 2026-02-22 12:53:45: 90,904 states generated (672,615 s/min), 16,336 distinct states found (120,873 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+90904 states generated, 16336 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 17.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 9 and the 95th percentile is 4).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 8111ms at (2026-02-22 12:53:45)
+@!@!@ENDMSG 2186 @!@!@
