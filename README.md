@@ -4,7 +4,10 @@ This repository contains TLA+ and TLC example specs produced with assistance fro
 
 ## Attribution
 
-<https://github.com/younes-io/agent-skills/tree/main/skills/tlaplus-workbench>
+These specs were authored in this repository using Codex CLI with assistance from the `tlaplus-workbench` skill.
+
+Skill reference (`SKILL.md`):
+<https://github.com/younes-io/agent-skills/blob/main/skills/tlaplus-workbench/SKILL.md>
 
 ## Spec-to-Prompt Mapping
 
