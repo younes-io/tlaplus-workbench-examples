@@ -1,18 +1,19 @@
 # tlaplus-workbench-examples
 
-This repository contains TLA+ and TLC example specs produced with assistance from Codex CLI and the `tlaplus-workbench` skill.
+This repository contains TLA+ examples for both TLC model checking and TLAPS theorem proving, produced with assistance from Codex CLI.
 
 ## Scope
 
-These are one-shot TLA+ modeling examples produced for exploration and learning.
+These are one-shot TLA+ examples produced for exploration and learning.
 They are not production-hardened specs and are not maintained as long-lived models.
 
 ## Attribution
 
-These specs were authored in this repository using Codex CLI with assistance from the `tlaplus-workbench` skill.
+These specs were authored in this repository using Codex CLI with assistance from the `tlaplus-workbench` and `tlaps-workbench` skills.
 
 Skill reference (`SKILL.md`):
 <https://github.com/younes-io/agent-skills/blob/main/skills/tlaplus-workbench/SKILL.md>
+<https://github.com/younes-io/agent-skills/blob/main/skills/tlaps-workbench/SKILL.md>
 
 ## Spec-to-Prompt Mapping
 
@@ -46,4 +47,12 @@ Prompt:
 
 ```text
 "$tlaplus-workbench Model cross-device offline-first sync with edits, deletes (tombstones), conflict resolution, and eventual cleanup GC."
+```
+
+### `RaftElectionTLAPS.tla`
+
+Prompt:
+
+```text
+"$tlaps-workbench Model simplified Raft leader election (terms, votes). Prove leader uniqueness per term and monotonic term growth."
 ```

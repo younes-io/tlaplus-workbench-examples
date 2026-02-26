@@ -1,1 +1,5 @@
 *.out
+.tlacache/
+.tlaps-workbench/
+.DS_Store
+.vscode/
