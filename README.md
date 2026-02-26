@@ -12,7 +12,9 @@ They are not production-hardened specs and are not maintained as long-lived mode
 These specs were authored in this repository using Codex CLI with assistance from the `tlaplus-workbench` and `tlaps-workbench` skills.
 
 Skill reference (`SKILL.md`):
+
 <https://github.com/younes-io/agent-skills/blob/main/skills/tlaplus-workbench/SKILL.md>
+
 <https://github.com/younes-io/agent-skills/blob/main/skills/tlaps-workbench/SKILL.md>
 
 ## Spec-to-Prompt Mapping
