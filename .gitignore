@@ -1,5 +1,8 @@
 *.out
 .tlacache/
+.tla-check/
+.tla-proof/
+.tlaplus-workbench/
 .tlaps-workbench/
 .DS_Store
 .vscode/
